@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+body{
+    background-image: url(https://images4.alphacoders.com/199/thumb-1920-199238.jpg);
+    font-family: 'Oswald', sans-serif;
+}
+
+.box{
+    max-width: 300px;
+    margin: auto;
+    margin-top: 150px;
+    background-color: rgba(243, 237, 237, 0.445);
+    color: rgb(141, 17, 17);
+    padding: 15px;
+    box-shadow: 0 10px 45px black;
+    border-radius: 5px;
+    text-align: center
+}
+
+#resultado{
+    color: rgb(122, 6, 6);
+}
+
+input{
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 10px 45px rgba(110, 8, 8, 0.541);
+}
+button{
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 10px 45px rgb(0, 0, 0);
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    animation: color 3s infinite;
+}
+
+@keyframes color {
+    from{
+        background-color: rgb(155, 38, 38);
+    }
+    to
+    {
+        background-color: rgb(121, 14, 14);
+    }
+}
